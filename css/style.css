@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 ul, ol{
@@ -17,7 +20,62 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 auto;
 }
 
+
 /* ================ Navbar start here ================ */
+#navbar{
+    background-color: bisque;
+}
+
+.nav_wrapper{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+}
+
+.menu{
+    width: 60%;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav_action{
+    width: 20%;
+    display: flex; 
+    align-items: center;
+    justify-content: end;
+    gap: 7.5px;
+}
+
+.nav_action a{
+    text-decoration: none;
+    border: 1px solid #036E8A;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ================ Navbar end here ================ */
 
 
