@@ -333,6 +333,32 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* ================ Package start here ================ */
+#package{
+
+}
+
+.package_header{
+    width: 830px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.package_header h2{
+    color: #036E8A;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.package_header p{
+    margin-top: 23px;
+    margin-bottom: 90px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    
+}
 /* ================ Package end here ================ */
 
 
