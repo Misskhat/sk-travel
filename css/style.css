@@ -239,6 +239,7 @@ h1,h2,h3,h4,h5,h6{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .destination_video .video_icon img{
@@ -246,6 +247,85 @@ h1,h2,h3,h4,h5,h6{
     height: 100%;
     object-fit: cover;
     padding: 27px 25px 27px 30px;
+}
+
+.book_now{
+    margin-top: 70px;
+    border: 2px solid #036E8A;
+    border-radius: 20px;
+    padding: 54px 64px 50px 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 83px;
+}
+
+.location_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 166px;
+}
+
+.location{
+    position: relative;
+}
+
+.location::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -80px;
+    width: 4px;
+    height: 96px;
+    background: #FF8000;
+    
+}
+
+.location h3{
+    color: #036E8A;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.location img:last-child{
+    opacity: 50%;
+}
+
+.star_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+.price p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price h2{
+    color: #036E8A;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.book_now .book_now_btn button{
+    outline: none;
+    border: none;
+    padding: 15px 45px;
+    background: #FF8000;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
 }
 
 /* ================ Destination end here ================ */
