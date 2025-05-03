@@ -23,7 +23,11 @@ h1,h2,h3,h4,h5,h6{
 
 /* ================ Navbar start here ================ */
 #navbar{
-    background-color: bisque;
+    background-color: #fff;
+    position: absolute;
+    top: 36px;
+    width: 100%;
+    left: 0;
 }
 
 .nav_wrapper{
@@ -80,38 +84,196 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ Banner start here ================ */
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 257px;
+    padding-bottom: 200px;
+}
+
+.banner_wrapper{
+    width: 784px;
+}
+
+.banner_wrapper h1{
+    color: #FFF;
+    font-size: 89px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner_wrapper p{
+    margin-top: 24px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner_search{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.search_box{
+    
+    width: 428px;
+    height: 60px;
+    background: #fff;
+    padding: 16px 16px 17px 96px;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #036E8A;
+}
+
+.search_box .search_icon{
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%)
+}
+
+.search_box input{
+    border: none;
+    outline: none;
+    overflow: hidden;
+    width: 100%;
+    font-size: 18px;
+}
+
+.search_box input::placeholder{
+    color: #036E8A;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.location_box{
+    width: 58px;
+    height: 58px;
+    border: 1px solid #fff;
+    background: #FF8000;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+/* ================ Banner end here ================ */
 
 
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ Destination start here ================ */
+#destination{
+    margin-top: 148px;
+    margin-bottom: 90px;
+}
+
+.destination_wrapper{
+    display: flex;
+    gap: 80px;
+}
+
+.destination_content{
+    width: 560px;
+}
+
+.destination_content h3{
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.destination_content h2{
+    color: #036E8A;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.destination_content p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.destination_video{
+    width: 508px;
+    height: 369px;
+    border-radius: 25px;
+    background: gray;
+    overflow: hidden;
+    position: relative;
+}
+
+.destination_video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.destination_video .video_icon{
+    width: 72px;
+    height: 72px;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.destination_video .video_icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 27px 25px 27px 30px;
+}
+
+/* ================ Destination end here ================ */
 
 
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ Package start here ================ */
+/* ================ Package end here ================ */
 
 
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ Destination2 start here ================ */
+/* ================ Destination2 end here ================ */
 
 
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ Most Destination start here ================ */
+/* ================ Most Destination end here ================ */
 
 
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ Counter start here ================ */
+/* ================ Counter end here ================ */
 
 
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ Newsletter start here ================ */
+/* ================ Newsletter end here ================ */
 
 
 
