@@ -356,9 +356,114 @@ h1,h2,h3,h4,h5,h6{
     color: #000;
     font-size: 20px;
     font-weight: 400;
-    line-height: normal;
-    
+    line-height: normal;   
 }
+
+.package_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.package_item{
+    width: 357px;
+}
+
+.package_item_inner{
+    border: 1px solid #036E8A;
+    padding: 36px 38px 76px 38px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.package_item_inner .sec_header{
+    color: #036E8A;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_item_inner .sec_price{
+    color: #036E8A;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_item_inner h5{
+    padding-top: 6px;
+    color: #036E8A;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_item_inner ul{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.package_item_inner ul li{
+    display: flex;
+    gap: 13px;
+
+}
+
+.package_item_inner ul li p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_item_inner button{
+    border: none;
+    outline: none;
+    padding: 12px 26px;
+    background: #036E8A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 194px;
+    transition: all linear 0.3s;
+}
+
+.package_trail{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 42px;
+}
+
+
+.package_item_inner:hover{
+    border: 1px solid #FF8000;
+}
+
+.package_item_inner:hover .sec_header, .package_item_inner:hover .sec_price, .package_item_inner:hover h5, .package_item_inner:hover .section_offer, .package_item_inner:hover svg{
+    color: #FF8000;
+}
+
+.package_item_inner:hover button{
+    background: #FF8000;
+}
+
 /* ================ Package end here ================ */
 
 
