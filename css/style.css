@@ -502,13 +502,96 @@ h1,h2,h3,h4,h5,h6{
 
 /* ================ Destination2 start here ================ */
 #destination2{
-    margin-top: 115px;
+    margin-top: 180px;
+    background: #036E8A;
+    padding-top: 69px;
+    padding-bottom: 69px;
+    position: relative;
+    z-index: 999;
+
+}
+
+.destination2_shadow{
+    position: relative;
+}
+
+.destination2_shadow img{
+    position: absolute;
+    z-index: 555;
+    top: -35px;
+    left: 70px;
+}
+
+.destination2_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 74px;
+    position: relative;
+    z-index: 999;
+}
+
+.destination2_img{
+    width: 508px;
+    height: 523px;
+    box-shadow: 0px 0px 5px  #ffffff34;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+}
+
+.destination2_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 999;
+}
+
+.destination2_title{
+    width: 561px;
+    position: relative;
+    z-index: 999;
+}
+
+.destination2_title h3{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    z-index: 999;
+}
+
+.destination2_title h2{
+    margin-top: 31px;
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    z-index: 999;
+}
+
+.destination2_title p{
+    margin-top: 30px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    z-index: 999;
 }
 /* ================ Destination2 end here ================ */
 
 
 
 /* ================ Most Destination start here ================ */
+#most_destination{
+    margin-top: 111px;
+}
+
 /* ================ Most Destination end here ================ */
 
 
