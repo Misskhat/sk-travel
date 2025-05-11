@@ -590,6 +590,7 @@ h1,h2,h3,h4,h5,h6{
 /* ================ Most Destination start here ================ */
 #most_destination{
     margin-top: 111px;
+    margin-bottom: 112px;
 }
 
 .sec_title{
@@ -614,9 +615,74 @@ h1,h2,h3,h4,h5,h6{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    
+    line-height: normal;    
 }
+
+.monst_des_gal_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.gal_item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.gal_item_inner{
+    position: relative;
+    z-index: 1;
+}
+.gal_img_title{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 999;
+}
+
+.gal_item_inner.large{
+    width: 275px;
+    height: 407px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.large img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+}
+
+.gal_item_inner.small{
+    width: 275px;
+    height: 266px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.small img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+}
+
+.gal_img_title h3{
+    color: #707070;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gal_img_title p{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
 /* ================ Most Destination end here ================ */
 
 
