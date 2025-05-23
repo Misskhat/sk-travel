@@ -845,7 +845,7 @@ h6 {
 
 .brand_wrapper {
   border: 3px solid #036e8a;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 70px 73px;
   display: flex;
   align-items: center;
@@ -873,11 +873,149 @@ h6 {
 }
 /* ================ Brand end here ================ */
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ review start here ================ */
+.review_heading {
+  margin-bottom: 111px;
+}
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+.heading_title {
+  text-align: center;
+}
+
+.heading_title h3 {
+  color: #036e8a;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.heading_title p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 23px;
+}
+
+.review_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 77px;
+}
+
+.review_item {
+  width: 538px;
+  box-shadow: -1px 0px 9px -1px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: -1px 0px 9px -1px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: -1px 0px 9px -1px rgba(0, 0, 0, 0.43);
+  padding: 38px 59px;
+  border-radius: 15px;
+  transition: all linear 0.3s;
+}
+
+.reviewer_img {
+  height: 113px;
+  width: 113px;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  overflow: hidden;
+  margin: 0 auto;
+  transition: all linear 0.3s;
+}
+
+.reviewer_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reviewer_content {
+  text-align: center;
+}
+
+.reviewer_info {
+  padding-top: 26px;
+}
+
+.reviewer_info h4 {
+  color: #036e8a;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all linear 0.3s;
+}
+
+.reviewer_info p {
+  color: #262525;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: all linear 0.3s;
+}
+
+.reviewer_rating {
+  padding-bottom: 22px;
+}
+.reviewer_rating i {
+  color: #ff8000;
+  transition: all linear 0.3s;
+}
+
+.paragraph {
+  padding-bottom: 38px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all linear 0.3s;
+}
+
+.review_item:nth-child(odd):hover {
+  background: #036e8a;
+}
+.review_item:nth-child(odd):hover .reviewer_img {
+  border: 1px solid #fff;
+}
+
+.review_item:nth-child(odd):hover .reviewer_info h4,
+.review_item:nth-child(odd):hover .reviewer_info p,
+.review_item:nth-child(odd):hover .reviewer_rating i,
+.review_item:nth-child(odd):hover .paragraph {
+  color: white;
+}
+
+.review_item:nth-child(even):hover {
+  background: #ff8000;
+}
+.review_item:nth-child(even):hover .reviewer_img {
+  border: 1px solid #fff;
+}
+
+.review_item:nth-child(even):hover .reviewer_info h4,
+.review_item:nth-child(even):hover .reviewer_info p,
+.review_item:nth-child(even):hover .reviewer_rating i,
+.review_item:nth-child(even):hover .paragraph {
+  color: white;
+}
+/* ================ review end here ================ */
+
+/* ================ message start here ================ */
+#message {
+  margin-top: 156px;
+}
+/* ================ message end here ================ */
 
 /* ================ Navbar start here ================ */
 /* ================ Navbar end here ================ */
