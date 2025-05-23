@@ -21,6 +21,11 @@ h6 {
   line-height: 0.8;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .container {
   width: 1148px;
   margin: 0 auto;
@@ -1015,10 +1020,135 @@ h6 {
 #message {
   margin-top: 156px;
 }
+
+.msg_wrapper {
+  padding: 85px;
+  background: #036e8a;
+  border-radius: 15px;
+}
+.msg_wrapper h4 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 135px;
+  position: relative;
+}
+
+.msg_wrapper h4::after {
+  position: absolute;
+  content: "";
+  bottom: 61px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 778px;
+  height: 3px;
+  background: white;
+  border-radius: 8px;
+}
+
+.msg_wrapper .msg_para {
+  width: 661px;
+  margin: 0 auto;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 103px;
+  position: relative;
+}
+
+.msg_wrapper .msg_para::after {
+  position: absolute;
+  content: "";
+  bottom: 61px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 411px;
+  height: 3px;
+  background: white;
+  border-radius: 8px;
+}
+
+.msg_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.msg_btn button {
+  padding: 21px 67px;
+  background: #ff8000;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
 /* ================ message end here ================ */
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ footer start here ================ */
+#footer {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.footer_wrapper {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+.footer_header {
+  margin-bottom: 69px;
+}
+
+.footer_header h4 {
+  color: #036e8a;
+  font-family: Montserrat;
+  font-size: 24.917px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+.footer_header h4::after {
+  position: absolute;
+  content: "";
+  bottom: -32px;
+  left: 0;
+  width: 142px;
+  height: 2px;
+  border-radius: 8px;
+  background-color: #036e8a;
+}
+
+.ftr_items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.ftr_items a {
+  color: #262525;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ================ footer end here ================ */
 
 /* ================ Navbar start here ================ */
 /* ================ Navbar end here ================ */
