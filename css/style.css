@@ -1019,12 +1019,23 @@ a {
 /* ================ message start here ================ */
 #message {
   margin-top: 156px;
+  position: relative;
 }
 
 .msg_wrapper {
   padding: 85px;
   background: #036e8a;
   border-radius: 15px;
+}
+
+.msg_shape {
+  position: relative;
+}
+
+.msg_shape img {
+  position: absolute;
+  top: 30px;
+  left: 60px;
 }
 .msg_wrapper h4 {
   color: #fff;
@@ -1036,6 +1047,7 @@ a {
   text-align: center;
   padding-bottom: 135px;
   position: relative;
+  z-index: 999;
 }
 
 .msg_wrapper h4::after {
@@ -1062,6 +1074,7 @@ a {
   text-align: center;
   padding-bottom: 103px;
   position: relative;
+  z-index: 999;
 }
 
 .msg_wrapper .msg_para::after {
@@ -1080,6 +1093,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 999;
 }
 
 .msg_btn button {
@@ -1094,6 +1109,8 @@ a {
   font-weight: 500;
   line-height: normal;
   text-align: center;
+  position: relative;
+  z-index: 999;
 }
 
 /* ================ message end here ================ */
@@ -1150,5 +1167,33 @@ a {
 
 /* ================ footer end here ================ */
 
-/* ================ Navbar start here ================ */
-/* ================ Navbar end here ================ */
+/* ================ copyright start here ================ */
+#copyright {
+  background: #ff8000;
+  padding: 41px 47px;
+}
+
+.copyright_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright_text p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.copyright_trams p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* ================ copyright end here ================ */
